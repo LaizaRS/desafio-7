@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pai-de-todos{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.parte-superior {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  max-width: 1440px;
+  background: #F4F4FF;
+}
+
+.titulos{
+  margin-bottom: 40px;
+}
+
+.placeholder {
+  padding: 40px;
+  background: white;
+  gap: 20px;
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+.input {
+  background: #F4F4FF;
+  height: 48px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.input img{
+  margin: 0 5px;
+}
+
+.input input{
+  all: initial;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.placeholder button {
+  all: initial;
+  width: 165px;
+  height: 48px;
+  border-radius: 5px;
+  background: #6246EA;
+  color: white;
+  text-align: center;
+}
+
+.parte-inferior {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+.cima {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.lateral {
+  padding: 20px;
+  border: 1px solid #EAEAEA;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lateral button {
+  all: initial;
+  width: 86px;
+  height: 32px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.lateral button:first-child {
+background: #6246EA;
+color: white;
+}
+
+.lateral button:first-child:hover {
+transform: scale(1.1);
+  }
+
+.lateral button:nth-child(2){
+  color: #6246EA;
+}
+
+.lateral button:nth-child(2):hover{
+  background: #6246EA;
+  color: white;
+}
+
+.ao-redor {
+  display: flex;
+  flex-direction: column;
+}
+
+.tres-mini-div{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.mini-div{
+  height: 323px;
+  width: 384px;
+  border: 1px solid #EAEAEA;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-bottom: 32px;
+}
+
+.mini-div img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.mini-div h1 {
+  font-size: 20px;
+  margin: 16px;
+}
+
+.mini-div p {
+  margin: 0 16px;
+}
+
+.local {
+  display: flex;
+  align-items: center;
+  margin: 16px;
+  gap: 10px;
+}
