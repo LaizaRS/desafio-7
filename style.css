@@ -99,12 +99,12 @@
 }
 
 .lateral button:first-child {
-background: #6246EA;
-color: white;
+  background: #6246EA;
+  color: white;
 }
 
 .lateral button:first-child:hover {
-transform: scale(1.1);
+  transform: scale(1.1);
   }
 
 .lateral button:nth-child(2){
